@@ -2,8 +2,6 @@
 *.d
 
 # Compiled Object files
-*.slo
-*.lo
 *.o
 *.obj
 
@@ -16,10 +14,6 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
 *.lai
 *.la
@@ -30,3 +24,10 @@
 *.exe
 *.out
 *.app
+/Debug/
+/.vscode/
+
+.cproject
+.project
+.settings/
+testlist
