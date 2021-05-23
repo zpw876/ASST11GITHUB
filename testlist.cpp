@@ -3,7 +3,7 @@
 #include "namelist.h"
 
 using std::cout;
-using std::end;
+using std::endl;
 
 const char* names[] = {"Adams", "Baker", "Clarke", "Daniels", "Evans",
 		 "Franklin", "Gerhardt", "Hardy", "Ives", "Jacobs",
@@ -43,7 +43,7 @@ void testList (int numberOfItems)
 
 int main()
 {
-  for (int test = 26; test >= 0; --test)
+  for (int test = 2; test >= 0; --test)
     {
       testList(test);
     }
