@@ -2,7 +2,7 @@
 #define NAMELIST_H
 
 #include <iostream>
-#include <string>
+#include <stringx>
 
 
 
